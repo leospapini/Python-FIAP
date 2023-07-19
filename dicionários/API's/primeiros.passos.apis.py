@@ -3,7 +3,7 @@
 from geopy.geocoders import GoogleV3
 
 endereco = '874, Augusto de Toledo, São Caetano do Sul, SP'
-geolocator = GoogleV3(api_key='AIzaSyB2JsKL-Q00Pea5gIcJ7dSa6XPBFWfF3uQ')
+geolocator = GoogleV3(api_key='YOUR API')
 location = geolocator.geocode(endereco)
 print((location.latitude, location.longitude))
 
