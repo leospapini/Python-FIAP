@@ -3,7 +3,7 @@
 from geopy.geocoders import GoogleV3
 
 endereco = 'avenida alberto byington, 712 Sao Paulo'
-resultado = GoogleV3(api_key='AIzaSyB2JsKL-Q00Pea5gIcJ7dSa6XPBFWfF3uQ')  
+resultado = GoogleV3(api_key='YOUR API')  
 location = resultado.geocode(endereco)
 
 print(location)
